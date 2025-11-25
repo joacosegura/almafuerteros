@@ -53,31 +53,44 @@
     width: 100%;     /* Que ocupe todo el ancho */
     z-index: 1000;   /* Para que quede por encima del resto */
 }
+
 .header a{
     margin: 10px;
     text-decoration: none;
     color: white;
     transition: background-color 0.4s ease, transform 0.3s ease;
 }
+
 .header a:hover{
     background-color: rgb(141, 141, 141);
     transform: scale(1.1);
 }
+
 .logo img{
     max-width: 200px;   
     height: auto;
     margin: 0;
     display: block;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    text-align: center;
-}
 
 h1 {
     margin-top: 40px;
 }
+
+.presentacion img{
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.presentacion img:hover{
+  transform: scale(1.1);
+}
+
+.texto h1{
+  color: #b30000;
+}
+
 .texto img{
     max-width: 400px;
     max-height: 250px;
@@ -86,6 +99,119 @@ h1 {
 
 .historia{
     padding: 50px;
+}
+
+.historia h1{
+  color: #b30000;
+}
+
+.disco {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.disco img {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  max-width: 220px;
+  height: auto;
+  padding: 10px;
+}
+
+.disco img:hover {
+  transform: scale(1.1);
+}
+
+.disco p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.disco span {
+  font-size: 14px;
+  color: white;
+}
+
+.discografia h1{
+  color: #b30000;
+}
+
+.conciertos {
+  color: rgb(0, 0, 0);
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+.conciertos h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #b30000;
+}
+
+.conciertos p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #000;
+  color: white;
+}
+
+.integrante {
+  padding: 60px 20px;
+  text-align: center;
+  width: 220px;
+  text-align: center;
+}
+
+.integrante img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.integrante img:hover {
+  transform: scale(1.1);
+}
+
+.integrante p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.integrante span {
+  font-size: 14px;
+  color: white;
+}
+
+.integrantes h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #b30000;
+}
+
+.galeria-integrantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(41, 38, 38);
+    color: white;     
+    text-align: center;
+    margin: 0;
+    padding-top: 100px;
 }
 
 .footer {
@@ -116,173 +242,4 @@ h1 {
 
 .footer a:hover {
     text-decoration: underline;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    text-align: center;
-    margin: 0;
-    padding-top: 100px; /* Ajustá según la altura real del header */
-}
-
-.discografia img{
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-    max-width: 250px;
-    max-height: 250px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.card img:hover {
-    transform: scale(1.1);
-}
-.conciertos {
-  color: rgb(0, 0, 0);
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.conciertos h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: #b30000;
-}
-
-.conciertos p {
-  font-size: 18px;
-  line-height: 1.8;
-  margin-bottom: 30px;
-  color: #000;
-}
-
-.integrantes {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.integrantes h1 {
-  font-size: 32px;
-  margin-bottom: 40px;
-  color: #b30000;
-}
-
-.galeria-integrantes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-}
-
-.integrante {
-  width: 220px;
-  text-align: center;
-}
-
-.integrante img {
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
-.integrante img:hover {
-  transform: scale(1.1);
-}
-
-.integrante p {
-  margin-top: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #222;
-}
-
-.integrante span {
-  font-size: 14px;
-  color: #555;
-}
-.disco {
-  display: inline-block;
-  margin: 20px;
-  text-align: center;
-}
-
-.disco img {
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-  max-width: 220px;
-  height: auto;
-}
-
-.disco img:hover {
-  transform: scale(1.1);
-}
-
-.disco p {
-  margin-top: 10px;
-  font-size: 16px;
-  color: #222;
-}
-
-.disco span {
-  font-size: 14px;
-  color: #666;
-}
-
-.presentacion img{
-  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-}
-
-.presentacion img:hover{
-  transform: scale(1.1);
-}
-
-.historia h1{
-  color: #b30000;
-}
-
-.texto h1{
-  color: #b30000;
-}
-.discografia h1{
-  color: #b30000;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(41, 38, 38);
-    color: white;     
-    text-align: center;
-    margin: 0;
-    padding-top: 100px;
-}
-
-.conciertos {
-  color: white;
-}
-
-.conciertos p {
-  color: white;
-}
-
-.integrante p {
-  color: white;
-}
-
-.integrante span {
-  color: white;
-}
-
-.disco p {
-  color: white;
-}
-
-.disco span {
-  color: white;
 }
