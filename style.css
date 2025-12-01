@@ -9,8 +9,8 @@
 }
 
 /* --- Diseño adaptativo (solo se aplica en pantallas pequeñas) --- */
-@media (max-width: 768px) {
-  /* Mostramos el botón cuando el ancho sea menor a 768px */
+@media (max-width: 1000px) {
+  /* Mostramos el botón cuando el ancho sea menor a 1000px */
   .menu-toggle {
     display: block;
   }
