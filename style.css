@@ -58,6 +58,7 @@
     margin: 10px;
     text-decoration: none;
     color: white;
+    font-family: Arial, sans-serif;
     transition: background-color 0.4s ease, transform 0.3s ease;
 }
 
@@ -89,6 +90,10 @@ h1 {
 
 .texto h1{
   color: #b30000;
+}
+
+.texto h2{
+  font-size: 20px;
 }
 
 .texto img{
@@ -130,17 +135,11 @@ h1 {
   color: white;
 }
 
-.disco span {
-  font-size: 14px;
-  color: white;
-}
-
 .discografia h1{
   color: #b30000;
 }
 
 .conciertos {
-  color: rgb(0, 0, 0);
   padding: 40px 20px;
   text-align: center;
   color: white;
@@ -156,7 +155,6 @@ h1 {
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 30px;
-  color: #000;
   color: white;
 }
 
@@ -187,10 +185,6 @@ h1 {
   color: white;
 }
 
-.integrante span {
-  font-size: 14px;
-  color: white;
-}
 
 .integrantes h1 {
   font-size: 32px;
@@ -227,19 +221,7 @@ body {
     font-size: 24px;
 }
 
-.footer ul {
-    padding: 0;
-}
-
-.footer ul li {
-    margin: 8px 0;
-}
 
 .footer a {
     color: #00bfff;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
 }
